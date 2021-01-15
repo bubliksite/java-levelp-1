@@ -1,3 +1,5 @@
+package Lesson1;
+
 import java.util.Scanner;
 
 public class Homework {
@@ -11,7 +13,9 @@ public class Homework {
     System.out.println("Enter b: ");
     float b = scanner.nextFloat();
 
+    float x = (-b / a);
+
     System.out.println("X equal: ");
-    System.out.println((-b / a));
+    System.out.println(x);
   }
 }
